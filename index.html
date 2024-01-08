@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples usando JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="caixa">
+        <h2>Calculadora simples</h2>
+        <input id="numero-um" name="numero-um" type="text"> <input id="numero-dois" name="numero-dois" type="text">
+        <br>
+        <br>
+
+        <input checked id="caixa1" name="operacao" type="radio" value="adicao"><b>+</b>
+
+        <input id="caixa2" name="operacao" type="radio" value="subtracao"><b>-</b>
+
+        <input id="caixa3" name="operacao" type="radio" value="multiplicacao"><b>*<b>
+
+        <input id="caixa4" name="operacao" type="radio" value="divide"><b>/<b>
+        <br>
+        <br>
+
+        <button onclick="calcular()" type="button"> Calcular </button>
+
+        <h1 id="resultArea"></h1>
+
+    </div>
+
+    
+</body>
+<script src="./script.js"></script>
+
+</html>

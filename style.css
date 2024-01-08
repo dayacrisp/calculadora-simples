@@ -1,0 +1,49 @@
+body{
+    background: rgb(105, 187, 228);
+
+}
+
+.caixa {
+    width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #262626;
+	padding: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+.caixa h2{
+    text-transform: uppercase;
+	font-family: poppins;
+	margin-top: 20%;
+}
+
+input[type="text"] {
+	height: 40px;
+    font-size: 24px;
+}
+
+button {
+	background: #6a748a;
+	border-radius: 5%;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: poppins;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+input[type="radio"] {
+	width: 15px;
+	height: 15px;
+}
+
+b {
+	font-size: 15px;
+}
